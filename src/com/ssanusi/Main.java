@@ -9,5 +9,12 @@ public class Main {
         var sorter = new BucketSort();
         sorter.sort(numbers, 3);
         System.out.println(Arrays.toString(numbers));
+
+        var search = new Search();
+        var result = search.exponentialSearch(numbers, 71);
+        System.out.println(result);
+
     }
+
+
 }
